@@ -1,0 +1,22 @@
+# DevOps Metrics Dashboard - Dependencies
+# Install with: pip install -r requirements.txt
+
+# Web Framework
+Flask==3.0.0
+Werkzeug==3.0.1
+
+# Production WSGI Server
+gunicorn==21.2.0
+
+# AWS SDK
+boto3==1.34.0
+botocore==1.34.0
+
+# System Metrics Collection
+psutil==5.9.7
+
+# HTTP client (for EC2 metadata service)
+requests==2.31.0
+
+# Environment variable management (optional, for local development)
+python-dotenv==1.0.0
